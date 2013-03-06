@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OatStore.Web", "OatStore.Web\OatStore.Web.csproj", "{399BD7C7-3B72-4C38-9870-1752DF00D887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OatStore.Data", "OatStore.Data\OatStore.Data.csproj", "{BA581437-CC56-4065-A7AA-015D69A6E295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{399BD7C7-3B72-4C38-9870-1752DF00D887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399BD7C7-3B72-4C38-9870-1752DF00D887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399BD7C7-3B72-4C38-9870-1752DF00D887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399BD7C7-3B72-4C38-9870-1752DF00D887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA581437-CC56-4065-A7AA-015D69A6E295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA581437-CC56-4065-A7AA-015D69A6E295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA581437-CC56-4065-A7AA-015D69A6E295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA581437-CC56-4065-A7AA-015D69A6E295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
