@@ -11,7 +11,7 @@ namespace OatStore.Data.Models
 { 
     public class ProductRepository : IProductRepository
     {
-        OatStoreDataContext context = new OatStoreDataContext();
+       private readonly OatStoreDataContext context = new OatStoreDataContext();
 
         public IQueryable<Product> All
         {

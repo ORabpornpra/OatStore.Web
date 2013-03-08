@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using OatStore.Data.Entities;
 
 namespace OatStore.Data.Models
 {
@@ -17,5 +18,6 @@ namespace OatStore.Data.Models
         // 
         // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<OatStore.Data.Models.OatStoreDataContext>());
 
+        public DbSet<Product> Products { get; set; }
     }
 }

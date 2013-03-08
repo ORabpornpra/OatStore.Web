@@ -1,21 +1,17 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using OatStore.Data.Entities;
 using OatStore.Data.Models;
 
-namespace OatStore.Data.Controllers
+namespace OatStore.Web.Controllers
 {   
     public class ProductsController : Controller
     {
 		private readonly IProductRepository productRepository;
 
-		// If you are using Dependency Injection, you can delete the following constructor
-        public ProductsController() : this(new ProductRepository())
-        {
-        }
+        //// If you are using Dependency Injection, you can delete the following constructor
+        //public ProductsController() : this(new ProductRepository())
+        //{
+        //}
 
         public ProductsController(IProductRepository productRepository)
         {
