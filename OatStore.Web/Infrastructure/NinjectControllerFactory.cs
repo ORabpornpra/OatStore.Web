@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Ninject;
+using OatStore.Data.Models;
 
 namespace OatStore.Web.Infrastructure
 {
@@ -28,7 +29,7 @@ namespace OatStore.Web.Infrastructure
 
         private void AddBinding()
         {
-            
+            ninjectKernel.Bind<IProductRepository>().To<ProductRepository>();
         }
     }
 }
